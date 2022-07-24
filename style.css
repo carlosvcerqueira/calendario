@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f7fa;
+    color: #333;
+}
+
+.calendar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -195px;
+    width: 360px;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0 rgb(0, 0, 0, 0.4);
+    overflow: hidden;
+}
