@@ -5,6 +5,7 @@ React.createElement("nav", {className: "calendar--nav"},
 React.createElement("a",{ onClick: () => changeMonth(date.month() - 1)}, "\u2039"),
 React.createElement("h1", {onClick: () => resetDate() }, date.format('MMM'), " ",
 React.createElement("small", null, date.format('YYYY'))),
+
 React.createElement("a", {onClick: () => changeMonth(date.month() + 1)}, "\u203A"));
 
 const Day = ({currentDate, date, startDate, endDate, onClick}) => {
@@ -134,3 +135,5 @@ class Calendar extends React.Component {
 ReactDOM.render(
 React.createElement(Calendar, null),
 document.getElementById('calendar'));
+=======
+}
