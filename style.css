@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f7fa;
+    background-color: #c0dbc8;
     color: #333;
 }
 
@@ -19,7 +19,7 @@ body {
 .calendar--nav {
     margin: -15px -15px 15px;
     padding: 0 15px;
-    background-color: #b670f4;
+    background-color: #4636d6;
     color: #fff;
     height: 70px;
     position: relative;
@@ -114,7 +114,7 @@ body {
 }
 
 .calendar--days span.start, .calendar--days span.between, .calendar--days span.end {
-    background-color: #b670f4;
+    background-color: #3f6ac7;
     color: #fff;
 }
 
@@ -123,19 +123,19 @@ body {
 }
 
 .calendar--days span.end {
-    border-radius: 12px 0 0 12px;
+    border-radius: 0px 12px 12px 0px;
 }
 
 .calendar--days span.start.end {
     border-radius: 12px;
 }
- .calendar--days span.between:nth-child(7n+1):after, .calendar--days span.end:nth-child(7n+1):after {
-    content: "";
+ .calendar--days span.between:nth-child(7n):after, .calendar--days span.end:nth-child(7n):after {
+    content: " ";
     position: absolute;
     top: 0;
     bottom: 0;
     left: 100%;
-    background-color: #b670f4;
+    background-color: #3f6ac7;
     width: 20px;
  }
 
@@ -145,7 +145,7 @@ body {
     top: 0;
     bottom: 0;
     right: 100%;
-    background-color: #b670f4;
+    background-color: #3f6ac7;
     width: 20px;
  }
 
